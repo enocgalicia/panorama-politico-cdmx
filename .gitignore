@@ -1,0 +1,9 @@
+# Archivos originales de Excel
+fuentes/
+*.xlsx
+
+# Configuración local de Visual Studio Code
+.vscode/
+
+# Archivos internos de macOS
+.DS_Store

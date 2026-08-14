@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panorama Político CDMX</title>
+  <link rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header class="encabezado">
+    <h1>Panorama Político CDMX</h1>
+    <p>Resumen territorial y electoral 2018-2024</p>
+  </header>
+
+  <main>
+    <section class="controles" aria-label="Filtros">
+      <label>Año <select id="filtro-anio"></select></label>
+      <label>Alcaldía <select id="filtro-alcaldia"></select></label>
+      <label>Métrica <select id="filtro-metrica"></select></label>
+    </section>
+
+    <section id="tarjetas" class="tarjetas"></section>
+    <section class="rejilla-principal">
+      <div id="mapa" aria-label="Mapa de alcaldías"></div>
+      <article class="panel"><canvas id="grafica-diputados"></canvas></article>
+    </section>
+    <section class="panel"><canvas id="grafica-evolucion"></canvas></section>
+    <section class="panel"><table id="tabla-diputados"></table></section>
+  </main>
+
+  <footer>Fuente cartográfica: Datos Abiertos CDMX / INEGI, CC BY 4.0.</footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
