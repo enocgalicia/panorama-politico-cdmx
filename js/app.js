@@ -6,7 +6,8 @@ const COLORES = {
     PT: "#e63946",
     PVEM: "#66a630",
     MC: "#f58220",
-    APPT: "#7c3aed"
+    APPT: "#7c3aed",
+    APMCFI: "#7c3aed",
 };
 
 const PARTIDOS_GOBIERNO = [
@@ -27,12 +28,13 @@ const formatoNumero = new Intl.NumberFormat("es-MX");
 
 let territorio = [];
 let diputados = [];
+let diputadosRP = [];
 let geometriaAlcaldias;
 let mapa;
 let capaAlcaldias;
 let graficaDiputados;
 let graficaEvolucion;
-
+let graficaDiputadosRP;
 const estado = {
     anio: 2024,
     alcaldia: "TODAS",
@@ -62,6 +64,13 @@ async function iniciar() {
     territorio = await respuestaTerritorio.json();
     geometriaAlcaldias = await respuestaMapa.json();
     diputados = await respuestaDiputados.json();
+    const respuestaRP = await fetch("./data/diputados-rp.json");
+
+if (!respuestaRP.ok) {
+    throw new Error("No se pudo cargar diputados-rp.json");
+}
+
+diputadosRP = await respuestaRP.json();
 
     prepararFiltros();
     prepararMapa();
@@ -157,6 +166,7 @@ function actualizarDashboard() {
     renderGraficaDiputados(filasDiputados);
     renderGraficaEvolucion();
     renderTablaDiputados(filasDiputados);
+    actualizarDiputadosRP();
 }
 
 function renderTarjetas(filas) {
@@ -662,7 +672,124 @@ function renderGraficaEvolucion() {
         }
     );
 }
+function obtenerDiputadosRPDelAnio() {
+    return diputadosRP.filter(
+        (diputado) => Number(diputado.anio) === Number(estado.anio)
+    );
+}
+function actualizarDiputadosRP() {
+    const registros = obtenerDiputadosRPDelAnio();
+    const total = document.querySelector("#total-rp");
 
+    if (total) {
+        total.textContent = `${registros.length} diputaciones RP`;
+    }
+    function actualizarGraficaRP(registros) {
+    const canvas = document.querySelector("#grafica-rp");
+
+    if (!canvas) {
+        return;
+    }
+
+    const conteo = registros.reduce((acumulado, registro) => {
+        acumulado[registro.partido] =
+            (acumulado[registro.partido] || 0) + 1;
+
+        return acumulado;
+    }, {});
+
+    const partidos = Object.keys(conteo).sort(
+        (a, b) => conteo[b] - conteo[a]
+    );
+
+    if (graficaDiputadosRP) {
+        graficaDiputadosRP.destroy();
+    }
+
+    graficaDiputadosRP = new Chart(canvas, {
+        type: "bar",
+        data: {
+            labels: partidos,
+            datasets: [
+                {
+                    label: "Diputaciones RP",
+                    data: partidos.map((partido) => conteo[partido]),
+                    backgroundColor: partidos.map(
+                        (partido) => COLORES[partido] || "#64748b"
+                    ),
+                    borderWidth: 0
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            indexAxis: "y",
+            plugins: {
+                legend: {
+                    display: false
+                },
+                title: {
+                    display: true,
+                    text: `Diputaciones RP por fuerza política · ${estado.anio}`
+                }
+            },
+            scales: {
+    x: {
+        beginAtZero: true,
+        ticks: {
+            precision: 0
+        }
+    },
+    y: {
+        ticks: {
+            autoSkip: false
+        }
+    }
+}
+        }
+    });
+}
+actualizarGraficaRP(registros);
+    actualizarTablaRP(registros);
+}
+function actualizarTablaRP(registros) {
+    const tabla = document.querySelector("#tabla-rp");
+
+    if (!tabla) {
+        return;
+    }
+
+    const registrosOrdenados = [...registros].sort(
+        (a, b) =>
+            a.partido.localeCompare(b.partido, "es") ||
+            Number(a.orden) - Number(b.orden)
+    );
+
+    tabla.innerHTML = `
+        <caption>Diputaciones RP · ${estado.anio}</caption>
+        <thead>
+            <tr>
+                <th>N.º</th>
+                <th>Fuerza política</th>
+                <th>Diputado o diputada</th>
+            </tr>
+        </thead>
+        <tbody>
+            ${registrosOrdenados
+                .map(
+                    (registro, indice) => `
+                        <tr>
+                            <td>${indice + 1}</td>
+                            <td>${registro.partido}</td>
+                            <td>${registro.diputado}</td>
+                        </tr>
+                    `
+                )
+                .join("")}
+        </tbody>
+    `;
+}
 function mostrarError(error) {
     console.error(error);
 

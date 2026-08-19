@@ -1,0 +1,778 @@
+[
+  {
+    "anio": 2018,
+    "orden": 1,
+    "estado": "CDMX",
+    "partido": "PRI",
+    "diputado": "Armando Tonatiuh González Case",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 2,
+    "estado": "CDMX",
+    "partido": "PRI",
+    "diputado": "Miguel Ángel Salazar Martínez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 3,
+    "estado": "CDMX",
+    "partido": "PRI",
+    "diputado": "Edna Mariana Gutiérrez Rodríguez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 4,
+    "estado": "CDMX",
+    "partido": "PRI",
+    "diputado": "Leonor Gómez Otegui",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 5,
+    "estado": "CDMX",
+    "partido": "PRI",
+    "diputado": "Guillermo Lerdo de Tejada Servitje",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 6,
+    "estado": "CDMX",
+    "partido": "PRI",
+    "diputado": "Ernesto Alarcón Jiménez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 7,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Mauricio Tabe Echarteea",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 8,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Héctor Barrera Marmolejo",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 9,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Margarita Saldaña Hernández",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 10,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "América Alejandra Rangel Lorenzana",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 11,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Jorge Triana Tena",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 12,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Pablo Montes de Oca del Olmo",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 13,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Ana Patricia Báez Guerrero",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 14,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "María Gabriela Salido Magos",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 15,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Diego Orlando Garrido López",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 16,
+    "estado": "CDMX",
+    "partido": "PRD",
+    "diputado": "Víctor Hugo Lobo Román",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 17,
+    "estado": "CDMX",
+    "partido": "PRD",
+    "diputado": "Evelyn Parra Álvarez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 18,
+    "estado": "CDMX",
+    "partido": "PRD",
+    "diputado": "Paula Andrea Castillo Mendieta",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 19,
+    "estado": "CDMX",
+    "partido": "PRD",
+    "diputado": "José Valentín Maldonado Salgado",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 20,
+    "estado": "CDMX",
+    "partido": "PRD",
+    "diputado": "Jorge Gaviño Ambriz",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 21,
+    "estado": "CDMX",
+    "partido": "PRD",
+    "diputado": "Gabriela Quiroga Anguiano",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 22,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Ana Cristina Hernández Trejo",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 23,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Fernando Aboitiz Saro",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 24,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "José Martín Padilla Sánchez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 25,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Paula Soto Maldonado",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 26,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Lilia Eugenia Rossbach Suárez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 27,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Alfredo Pérez Paredes",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 28,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Donají Ofelia Olivera Reyes",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 29,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Eleazar Rubio Aldarán",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 30,
+    "estado": "CDMX",
+    "partido": "PT",
+    "diputado": "Jannete Elizabeth Guerrero Maya",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 31,
+    "estado": "CDMX",
+    "partido": "PT",
+    "diputado": "Lizett Clavel Sánchez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 32,
+    "estado": "CDMX",
+    "partido": "PVEM",
+    "diputado": "Teresa Ramos Arreola",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2018,
+    "orden": 33,
+    "estado": "CDMX",
+    "partido": "PVEM",
+    "diputado": "Alessandra Rojo de la Vega Piccolo",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 1,
+    "estado": "CDMX",
+    "partido": "PRI",
+    "diputado": "Mónica Fernández César",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 2,
+    "estado": "CDMX",
+    "partido": "PRI",
+    "diputado": "Tania Nanette Larios Pérez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 3,
+    "estado": "CDMX",
+    "partido": "PRI",
+    "diputado": "Jhonantan Colmenares Rentería",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 4,
+    "estado": "CDMX",
+    "partido": "PRI",
+    "diputado": "Fausto Manuel Zamorano Esparza",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 5,
+    "estado": "CDMX",
+    "partido": "PRI",
+    "diputado": "Carlos Joaquín Fernández Tinoco",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 6,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Luisa Adriana Gutiérrez Ureña",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 7,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "María Gabriela Salido Magos",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 8,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Federico Döring Casar",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 9,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Luis Alberto Chávez García",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 10,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Ana Jocelyn Villagrán Villasana",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 11,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Aníbal Alexandro Cáñez Morales",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 12,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Frida Jimena Guillén Ortiz",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 13,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "José Gonzalo Espina Miranda",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 14,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Andrea Evelyne Vicenteño Barrientos",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 15,
+    "estado": "CDMX",
+    "partido": "PRD",
+    "diputado": "Víctor Hugo Lobo Román",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 16,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Ricardo Janecarlo Lozano",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 17,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "José de Jesús Martín del Campo Castañeda",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 18,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Yuriri Ayala Zúñiga",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 19,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Leiticia Estrada Hernández",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 20,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Marco Antonio Temistocles Villanueva Ramos",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 21,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Héctor Díaz-Polanco",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 22,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Valentina Valia Batres Guadarrama",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 23,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Ana Francis López Bayghen Patiño",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 24,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Fernando Mercado Guaida",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 25,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Alejandra Méndez Vicuña",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 26,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Carlos Cervantes Godoy",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 27,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Christian Moctezuma González",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 28,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Isabela Rosales Herrera",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 29,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Xóchitl Bravo Espinosa",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 30,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Elizabeth Mateos Hernández",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 31,
+    "estado": "CDMX",
+    "partido": "PVEM",
+    "diputado": "José Martín Padilla Sánchez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2021,
+    "orden": 32,
+    "estado": "CDMX",
+    "partido": "MC",
+    "diputado": "Royfid Torres González",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 1,
+    "estado": "CDMX",
+    "partido": "PRI",
+    "diputado": "Omar Alejandro García Loria",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 2,
+    "estado": "CDMX",
+    "partido": "PRI",
+    "diputado": "Tania Nanette Larios Pérez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 3,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Andrés Atayde Rubiolo",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 4,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Frida Jimena Guillén Ortiz",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 5,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Olivia Garza de los Santos",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 6,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Diego Orlando Garrido López",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 7,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Andrés Sánchez Miranda",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 8,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Claudia Susana Pérez Romero",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 9,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Laura Alejandra Álvarez Soto",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 10,
+    "estado": "CDMX",
+    "partido": "PAN",
+    "diputado": "Mario Enrique Sánchez Flores",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 11,
+    "estado": "CDMX",
+    "partido": "PRD",
+    "diputado": "Nora Arias Contreras",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 12,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Alberto Vanegas Arenas",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 13,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Juana María Juárez López",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 14,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Valentina Batres Guadarrama",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 15,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Fernando Zárate Salgado",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 16,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Pedro Enrique Haces Lago",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 17,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Cecilia Vadillo Obregón",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 18,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Elizabeth Mateos Hernández",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 19,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Paulo Emilio García González",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 20,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Victor Hugo Romo Rodríguez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 21,
+    "estado": "CDMX",
+    "partido": "MORENA",
+    "diputado": "Luis Alberto Chávez García",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 22,
+    "estado": "CDMX",
+    "partido": "PT",
+    "diputado": "Ernesto Villareal Cantú",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 23,
+    "estado": "CDMX",
+    "partido": "PT",
+    "diputado": "Miriam Saldaña Chairez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 24,
+    "estado": "CDMX",
+    "partido": "PT",
+    "diputado": "Jannete Elizabeth Guerrero Maya",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 25,
+    "estado": "CDMX",
+    "partido": "PVEM",
+    "diputado": "Jesús Sesma Suárez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 26,
+    "estado": "CDMX",
+    "partido": "PVEM",
+    "diputado": "Yolanda Alicia López Martínez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 27,
+    "estado": "CDMX",
+    "partido": "PVEM",
+    "diputado": "Yolanda García Ortega",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 28,
+    "estado": "CDMX",
+    "partido": "MC",
+    "diputado": "Royfid Torres González",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 29,
+    "estado": "CDMX",
+    "partido": "MC",
+    "diputado": "Luisa Fernanda Ledesma Alpízar",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 30,
+    "estado": "CDMX",
+    "partido": "MC",
+    "diputado": "Patricia Urriza Arellano",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 31,
+    "estado": "CDMX",
+    "partido": "APMCFI",
+    "diputado": "Leticia Haro Jiménez",
+    "tipo": "RP"
+  },
+  {
+    "anio": 2024,
+    "orden": 32,
+    "estado": "CDMX",
+    "partido": "APMCFI",
+    "diputado": "Silvia Sánchez Barrios",
+    "tipo": "RP"
+  }
+]

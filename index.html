@@ -28,6 +28,32 @@
     </section>
     <section class="panel"><canvas id="grafica-evolucion"></canvas></section>
     <section class="panel"><table id="tabla-diputados"></table></section>
+    <section class="panel seccion-rp">
+    <div class="encabezado-rp">
+        <div>
+            <h2>Diputaciones de representación proporcional</h2>
+            <p>
+                Integración por fuerza política. Esta información se filtra
+                únicamente por año y no por alcaldía.
+            </p>
+        </div>
+
+        <strong id="total-rp" class="total-rp"></strong>
+    </div>
+
+    <div class="rejilla-rp">
+        <div class="grafica-rp">
+            <canvas id="grafica-rp"></canvas>
+        </div>
+
+        <div class="tabla-rp-contenedor">
+            <table
+                id="tabla-rp"
+                aria-label="Diputados de representación proporcional">
+            </table>
+        </div>
+    </div>
+</section>
   </main>
 
   <footer>Fuente cartográfica: Datos Abiertos CDMX / INEGI, CC BY 4.0.</footer>
